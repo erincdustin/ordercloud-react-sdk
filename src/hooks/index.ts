@@ -16,6 +16,7 @@ import { useOcForm } from "./useOcForm";
 import useHasAccess from "./useHasAccess";
 import { usePromoExpressions } from "./usePromoExpressions";
 import useShopper from "./useShopper";
+import { useCounter } from "./useCustomHook";
 
 export {
   useAuthQuery,
@@ -34,4 +35,5 @@ export {
   useHasAccess,
   usePromoExpressions,
   useShopper,
+  useCounter
 };
